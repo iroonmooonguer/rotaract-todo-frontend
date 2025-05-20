@@ -33,6 +33,17 @@
   }
 }
 
+/* Oculta la columna 'completada' y 'acciones' en pantallas menores a 600px */
+@media (max-width: 600px) {
+  .col-completed {
+    display: none;
+  }
+  .col-actions {
+    display: none;
+  }
+}
+
+
 .card {
   padding: 2em;
 }
